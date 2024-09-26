@@ -48,12 +48,15 @@ spring:
 
 ## 테이블 만들기
 H2와 Postgres간 ID호환을 위해 다음과 같이 ID를 설정해야 합니다.
+
+* SQL
 ```yaml
 create table users (
   id bigserial primary key,
   # ... 다른 컬럼들 ...
 );
 ```
+* User.java
 ```java
 import jakarta.persistence.*;
 import lombok.Getter;
