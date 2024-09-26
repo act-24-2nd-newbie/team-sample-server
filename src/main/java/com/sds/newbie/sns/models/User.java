@@ -1,11 +1,15 @@
 package com.sds.newbie.sns.models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "users")
 @Getter
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
     @Id
     @SequenceGenerator(name = "users_id_seq", allocationSize = 1)
