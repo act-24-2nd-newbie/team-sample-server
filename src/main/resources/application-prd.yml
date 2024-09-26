@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://[::1]:5432/dev
+    username: dev
+    password: passw0rd!
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  h2:
+    console:
+      enabled: off
+  devtools:
+    livereload:
+      enabled: false

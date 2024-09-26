@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:sns  # 필요하면 수정하세요!
+    username: sa

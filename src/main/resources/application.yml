@@ -1,0 +1,6 @@
+spring:
+  devtools:
+    livereload:
+      enabled: false
+  profiles:
+    active: prd     # 실행시 덮어씌워질 수 있음
